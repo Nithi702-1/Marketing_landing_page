@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2563eb; /* Blue 600 */
+  --color-secondary: #14b8a6; /* Teal 500 */
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-background-light: #eef5ff;
+  --color-card-bg: #ffffff;
+  --color-border-subtle: #e2e8f0;
+  --font-sans: "Outfit", sans-serif;
+}
+
+@utility bg-primary-gradient {
+  background: linear-gradient(135deg, var(--color-primary) 0%, #1e40af 100%);
+}
